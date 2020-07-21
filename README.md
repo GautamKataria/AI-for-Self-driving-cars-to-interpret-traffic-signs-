@@ -6,11 +6,11 @@ repository link --> [Prerequisites to yolov4](https://github.com/GautamKataria/Y
 
 This repository shows how to use deep learning techniques to accomplish the task of traffic sign detection and classification by combining a custom trained Yolo-v4 model and a Convolutional Neural Network.
 
-MOVE the obj.data and custom cfg file into the cfg folder in the x64 folder in your darknet build.
+#### MOVE the obj.data and custom cfg file into the cfg folder in the x64 folder in your darknet build.
 
-MOVE the Model_30.h5 and the darknet_custom_video.py into the x64 folder.
+#### MOVE the Model_30.h5 and the darknet_custom_video.py into the x64 folder.
 
-MOVE the german_signs.mp4 into the data folder in the x64 folder.
+#### MOVE the german_signs.mp4 into the data folder in the x64 folder.
 
 Download the weights from my google drive.  LINK --> [Weights here](https://drive.google.com/file/d/1SnkVtxvIkBY-I8CxcEJHdjrOnu7qu2Jw/view?usp=sharing)
 
