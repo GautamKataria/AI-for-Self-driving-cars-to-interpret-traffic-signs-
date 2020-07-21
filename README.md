@@ -15,8 +15,8 @@ The CNN model was trained on the German traffic-signs kaggle dataset. LINK--> [k
 
 ## Working:-
 
-We use opencv to feed the video into the yolov4 model which inturn gives us bounding boxes for traffic signs.
-Each bounding box is then cropped from the frame and passed onto the CNN model one by one 
-and are then classified into one of 43 different classes of traffic signs which are printed in the terminal.
-The output will be saved in the demo folder in the x64 folder in your darknet build
+##### We use opencv to feed the video into the yolov4 model which inturn gives us bounding boxes for traffic signs.
+##### Each bounding box is then cropped from the frame and passed onto the CNN model one by one 
+##### and are then classified into one of 43 different classes of traffic signs which are printed in the terminal.
+##### The output will be saved in the demo folder in the x64 folder in your darknet build
 
