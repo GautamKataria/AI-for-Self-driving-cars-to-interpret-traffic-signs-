@@ -7,6 +7,8 @@ MOVE the Model_30.h5 and the darknet_custom_video.py into the x64 folder.
 
 MOVE the german_signs.mp4 into the data folder in the x64 folder.
 
+Download the weights from my google drive.  LINK --> [Weights here](https://drive.google.com/file/d/1SnkVtxvIkBY-I8CxcEJHdjrOnu7qu2Jw/view?usp=sharing)
+
 The Yolo-v4 model is custom trained on Traffic signs from the Google open images dataset. LINK--> [here](https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F01mqdt)
 
 The CNN model was trained on the German traffic-signs kaggle dataset. LINK--> [kaggle dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?)
