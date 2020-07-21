@@ -1,4 +1,9 @@
 # Deep-learning-model-to-detect-and-classify-road-signs-in-realtime (please read before executing)
+
+### Before starting with this,
+Dont forget to download the preequisites to using the yolov4 model on your local machine in my YOLOV4 Tutorials 
+repository link --> [Prerequisites to yolov4](https://github.com/GautamKataria/YOLOv4-Tutorials)
+
 This repository shows how to use deep learning techniques to accomplish the task of traffic sign detection and classification by combining a custom trained Yolo-v4 model and a Convolutional Neural Network.
 
 MOVE the obj.data and custom cfg file into the cfg folder in the x64 folder in your darknet build.
