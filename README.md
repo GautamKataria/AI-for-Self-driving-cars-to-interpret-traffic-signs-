@@ -1,2 +1,18 @@
-# Deep-learning-model-to-detect-and-classify-road-signs-in-realtime (Imp to read before execution)
+# Deep-learning-model-to-detect-and-classify-road-signs-in-realtime (please read before executing)
 This repository shows how to use deep learning techniques to accomplish the task of traffic sign detection and classification by combining a custom trained Yolo-v4 model and a Convolutional Neural Network.
+
+MOVE the obj.data and custom cfg file into the cfg folder in the x64 folder in your darknet build.
+
+MOVE the Model_30.h5 and the darknet_custom_video.py into the x64 folder.
+
+MOVE the german_signs.mp4 into the data folder in the x64 folder.
+
+The Yolo-v4 model is custom trained on Traffic signs from the Google open images dataset. LINK--> [here](https://storage.googleapis.com/openimages/web/visualizer/index.html?set=train&type=detection&c=%2Fm%2F01mqdt)
+
+The CNN model was trained on the German traffic-signs kaggle dataset. LINK--> [kaggle dataset](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?)
+
+## Working:-
+
+We use opencv to feed the video into the yolov4 model which inturn gives us bounding boxes for traffic signs.
+Each bounding box is then cropped from the frame and passed onto the CNN model one by one 
+and are then classified into one of 43 different classes of traffic signs which are printed in the terminal.
