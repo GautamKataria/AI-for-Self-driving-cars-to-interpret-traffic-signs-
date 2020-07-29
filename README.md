@@ -8,6 +8,8 @@ This repository shows how to use deep learning techniques to accomplish the task
 
 #### MOVE the obj.data and custom cfg file into the cfg folder in the x64 folder in your darknet build.
 
+#### MOVE the obj.names into the data folder in the x64 folder in your darknet build.
+
 #### MOVE the Model_30.h5 and the darknet_custom_video.py into the x64 folder.
 
 #### MOVE the german_signs.mp4 into the data folder in the x64 folder.
