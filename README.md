@@ -24,5 +24,6 @@ The CNN model was trained on the German traffic-signs kaggle dataset. LINK--> [k
 ##### We use opencv to feed the video into the yolov4 model which feeds it to the custom trained yolov4 model which inturn gives us bounding boxes for traffic signs.
 ##### Each bounding box is then cropped from the frame and passed onto the CNN model one by one 
 ##### and are then classified into one of 43 different classes of traffic signs which are printed in the terminal.
+##### As our yolo model also detects other signs(written signs) if the CNN model isnt quite sure that its a proper traffic sign, it passes it off to be processed and read by tesseract OCR which outputs the written text.
 ##### The output will be saved in the demo folder in the x64 folder in your darknet build
 
