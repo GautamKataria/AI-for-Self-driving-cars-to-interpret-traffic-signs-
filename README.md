@@ -1,4 +1,4 @@
-# Deep-learning-model-to-detect-and-classify-road-signs-in-realtime (please read before executing)
+# Detect-and-classify-road-signs-in-realtime-using-yolov4-and-cnn(please read before executing)
 
 ### Before starting with this,
 Dont forget to download the preequisites to using the yolov4 model on your local machine in my YOLOV4 Tutorials 
