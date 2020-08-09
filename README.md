@@ -1,4 +1,4 @@
-# AI-for-self-driving-cars-(Detection recognition and OCR)
+# AI-for-self-driving-cars-(Traffic Sign Detection recognition and OCR)
 # (please read before executing)
 
 ### Before starting with this,
