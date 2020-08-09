@@ -1,5 +1,5 @@
 # AI-for-self-driving-cars-(Detection recognition and OCR)
-(please read before executing)
+# (please read before executing)
 
 ### Before starting with this,
 Dont forget to download the preequisites to using the yolov4 model on your local machine in my YOLOV4 Tutorials 
