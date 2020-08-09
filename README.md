@@ -1,4 +1,4 @@
-# AI for Self driving cars to interpret traffic signs            (Traffic Sign Detection recognition and OCR)
+  # AI for Self driving cars to interpret traffic signs (Traffic Sign Detection recognition and OCR)
 # (please read before executing)
 
 ### Before starting with this,
